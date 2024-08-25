@@ -34,72 +34,76 @@
 </head>
 
 <body class="font-manrope">
-    <header class=" max-w-screen-xl  lg:mx-auto ">
-        <!-- navbar section -->
-        <nav class="py-7 px-3 lg:px-0">
-            <div class="navbar">
-                <div class=" navbar-start ">
-                    <div class="dropdown hidden md:flex">
-                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden ">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 " fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M4 6h16M4 12h8m-8 6h16" />
-                            </svg>
+    <section class="bg-gradient-to-b from-[#f4f4f4] to bg-white">
+        <header class=" max-w-screen-xl  lg:mx-auto ">
+            <!-- navbar section -->
+            <nav class="py-7 px-3 lg:px-0 flex justify-center items-center">
+                <div class="navbar">
+                    <div class=" navbar-start flex">
+                        <div class="dropdown hidden md:flex">
+                            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden ">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 " fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h8m-8 6h16" />
+                                </svg>
+                            </div>
+                            <ul tabindex="0"
+                                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                                <li><a>Home</a></li>
+                                <li><a>Services</a></li>
+                                <li><a>Portfolio</a></li>
+                                <li><a>Blogs</a></li>
+                                <li><a>Contact Us</a></li>
+                            </ul>
                         </div>
-                        <ul tabindex="0"
-                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                            <li><a>Home</a></li>
-                            <li><a>Services</a></li>
-                            <li><a>Portfolio</a></li>
-                            <li><a>Blogs</a></li>
-                            <li><a>Contact Us</a></li>
+                        <i
+                            class="fa-solid fa-arrow-right -rotate-45 mr-2 p-[8px]  rounded-full  lg:w-8 lg:h-8 lg:rounded-full bg-[#ABEF5F] inline-flex justify-center items-center text-primary"></i>
+                        <a class="text-[32px] font-extrabold text-primary">Rinterio</a>
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1 gap-6 text-[16px] font-extrabold">
+                            <li
+                                class="text-text-textcolor hover:text-textcolor duration-300 easy-in-out active:text-textcolor">
+                                <a href="#index.html">Home</a></li>
+                            <li class="text-[#737373] hover:text-textcolor duration-300 easy-in-out"><a>Services</a></li>
+                            <li class="text-[#737373] hover:text-textcolor duration-300 easy-in-out"><a>Portfolio</a></li>
+                            <li class="text-[#737373] hover:text-textcolor duration-300 easy-in-out"><a>Blogs</a></li>
+                            <li class="text-[#737373] hover:text-textcolor duration-300 easy-in-out"><a>Contact Us</a></li>
                         </ul>
                     </div>
-                    <i
-                        class="fa-solid fa-arrow-right -rotate-45 mr-2 p-[8px]  rounded-full  lg:w-8 lg:h-8 lg:rounded-full bg-[#ABEF5F] inline-flex justify-center items-center text-primary"></i>
-                    <a class="text-[32px] font-extrabold text-primary">Rinterio</a>
+                    <div class="navbar-end  lg:flex md:flex hidden">
+                        <i class="fa-solid fa-magnifying-glass p-[10px] rounded-full border-[1px] border-[#E9E9E9] bg-white"></i>
+                        <i class="fa-solid fa-cart-shopping p-[10px] rounded-full mx-2 border-[1px] border-[#E9E9E9] bg-white"></i>
+                        <a class="btn h-[56px] w-[220px] text-[20px] font-extrabold bg-[#ABEF5F] rounded-[32px]">Book
+                            Consult <i
+                                class="fa-solid fa-arrow-right -rotate-45 p-[8px]  rounded-full  lg:w-8 lg:h-8 lg:rounded-full bg-[#1C1C1C] text-white inline-flex justify-center items-center text-primary"></i></a>
+                    </div>
+                    
                 </div>
-                <div class="navbar-center hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1 gap-6 text-[16px] font-extrabold">
-                        <li
-                            class="text-text-textcolor hover:text-textcolor duration-300 easy-in-out active:text-textcolor">
-                            <a href="#index.html">Home</a></li>
-                        <li class="text-[#737373] hover:text-textcolor duration-300 easy-in-out"><a>Services</a></li>
-                        <li class="text-[#737373] hover:text-textcolor duration-300 easy-in-out"><a>Portfolio</a></li>
-                        <li class="text-[#737373] hover:text-textcolor duration-300 easy-in-out"><a>Blogs</a></li>
-                        <li class="text-[#737373] hover:text-textcolor duration-300 easy-in-out"><a>Contact Us</a></li>
-                    </ul>
+                <div class="lg:hidden mr-5 w-[50px] h-[40px] border-[1px]  flex justify-center items-center rounded-full bg-white">
+                    <i class="fa-solid fa-bars"></i>
                 </div>
-                <div class="navbar-end  lg:flex md:flex hidden">
-                    <i class="fa-solid fa-magnifying-glass p-2 rounded-full border-2 shadow-lg"></i>
-                    <i class="fa-solid fa-cart-shopping p-2 rounded-full border-2 mx-2 shadow-lg"></i>
-                    <a class="btn h-[56px] w-[220px] text-[20px] font-extrabold bg-[#ABEF5F] rounded-[32px]">Book
-                        Consult <i
-                            class="fa-solid fa-arrow-right -rotate-45 p-[8px]  rounded-full  lg:w-8 lg:h-8 lg:rounded-full bg-[#1C1C1C] text-white inline-flex justify-center items-center text-primary"></i></a>
+            </nav>
+            <!-- Banner section -->
+            <section class="mx-5">
+                <div class=" flex justify-center items-center mb-6"><img
+                        class="w-[260px] h-[160px] lg:w-[500px] lg:h-[300px]" src="assets/banner.png" alt="">
                 </div>
-                <div class="lg:hidden"><i class="fa-solid fa-bars"></i></div>
-            </div>
-
-        </nav>
-        <!-- Banner section -->
-        <section class="mx-5">
-            <div class=" flex justify-center items-center mb-6"><img
-                    class="w-[260px] h-[160px] lg:w-[500px] lg:h-[300px]" src="assets/banner.png" alt="">
-            </div>
-            <h1 class="text-[30px] text-primary lg:text-[64px] font-black leading-[32px] lg:leading-[70px] text-center">
-                A barn house of this design has a <br>
-                striking appearance</h1>
-            <p class="text-[16px] text-textcolor font-medium text-center my-6">The barn house captivates with its
-                blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents,
-                and large windows that flood the space with natural light.</p>
-            <div class="flex justify-center">
-                <a class="btn h-[56px] w-full lg:w-[220px] text-[20px] font-extrabold bg-[#D4F7AE] rounded-[32px]">View
-                    Details <i
-                        class="fa-solid fa-arrow-right -rotate-45 p-[8px]  rounded-full  lg:w-8 lg:h-8 lg:rounded-full bg-[#ABEF5F] text-primary inline-flex justify-center items-center text-primary"></i></a>
-            </div>
-        </section>
-    </header>
+                <h1 class="text-[30px] text-primary lg:text-[64px] font-black leading-[32px] lg:leading-[70px] text-center">
+                    A barn house of this design has a <br>
+                    striking appearance</h1>
+                <p class="text-[16px] text-textcolor font-medium text-center my-6">The barn house captivates with its
+                    blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents,
+                    and large windows that flood the space with natural light.</p>
+                <div class="flex justify-center">
+                    <a class="btn h-[56px] w-full lg:w-[220px] text-[20px] font-extrabold bg-[#D4F7AE] rounded-[32px]">View
+                        Details <i
+                            class="fa-solid fa-arrow-right -rotate-45 p-[8px]  rounded-full  lg:w-8 lg:h-8 lg:rounded-full bg-[#ABEF5F] text-primary inline-flex justify-center items-center text-primary"></i></a>
+                </div>
+            </section>
+        </header>
+    </section>
 
     <main>
 
@@ -333,6 +337,65 @@
            </div> 
         </section>
 
+        <!-- Articles and news section -->
+    
+        <section class="bg-[#f4f4f4] mt-[80px] py-[80px]">
+            <div class=" max-w-screen-xl  lg:mx-auto lg:px-[10px] px-5">
+                <div>
+                    <div class="flex justify-center ">
+                        <p
+                            class="w-[160px] font-bold lg:text-start text-center h-[38px] inline-flex justify-center items-center text-textcolor mb-6 rounded-[32px] bg-[#eeffdc]">
+                            <i class="fa-solid fa-arrow-right mr-2"></i>Rinterio News</p>
+                    </div>
+                    <h2
+                        class="text-[30px] lg:text-[50px]  text-center text-primary lg:leading-[60px] mb-6 font-black leading-[40px]">
+                        Read Our Articles and News</h2>
+                    <p class="text-[16px] text-center text-textcolor mb-8">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.
+                    </p>
+                </div>
+                <div class="grid lg:grid-cols-3 md:grid-cols-2 lg:gap-6 gap-10 ">
+                    <div class="p-[20px] bg-white border-2 rounded-xl overflow-hidden ">
+                        <img class="w-full" src="assets/article1.png" alt="">
+                        <div class=" flex gap-5">
+                            <p class="text-[15px] font-medium text-[#777777] mt-[15px] mb-3"><i class="fa-regular fa-calendar mr-2"></i> July14, 2024</p>
+                            <p class="text-[15px] font-medium text-[#777777] mt-[15px] mb-3"><i class="fa-regular fa-user mr-2 text-[10px] p-[4px] rounded-full border-[1px] border-[#777777]"></i> Admin</p>
+                        </div>
+                        <h3 class="text-[20px] font-extrabold  mb-3">How to choose the furniture <br> right  of your home.</h3>
+                        <p class="text-[16px] max-w-xl mx-auto font-medium text-[#777777] mb-3">The barn house captivates with its blend of <br> rustic charm and modern. </p>
+                        <p class="text-[18px] max-w-xl mx-auto font-bold text-[#000000]">Read More <i
+                            class="fa-solid fa-arrow-right -rotate-45 mr-2 p-[8px]  rounded-full  lg:w-8 lg:h-8 lg:rounded-full bg-[#ABEF5F] inline-flex justify-center items-center text-primary"></i></p>               
+                    </div>
+                    <div class="p-[20px] bg-white border-2 rounded-xl overflow-hidden ">
+                        <img class="w-full" src="assets/article2.png" alt="">
+                        <div class=" flex gap-5">
+                            <p class="text-[15px] font-medium text-[#777777] mt-[15px] mb-3"><i class="fa-regular fa-calendar mr-2"></i> July14, 2024</p>
+                            <p class="text-[15px] font-medium text-[#777777] mt-[15px] mb-3"><i class="fa-regular fa-user mr-2 text-[10px] p-[4px] rounded-full border-[1px] border-[#777777]"></i> Admin</p>
+                        </div>
+                        <h3 class="text-[20px] font-extrabold  mb-3">How to choose the furniture <br> right  of your home.</h3>
+                        <p class="text-[16px] max-w-xl mx-auto font-medium text-[#777777] mb-3">The barn house captivates with its blend of <br> rustic charm and modern. </p>
+                        <p class="text-[18px] max-w-xl mx-auto font-bold text-[#000000]">Read More <i
+                            class="fa-solid fa-arrow-right -rotate-45 mr-2 p-[8px]  rounded-full  lg:w-8 lg:h-8 lg:rounded-full bg-[#ABEF5F] inline-flex justify-center items-center text-primary"></i></p>               
+                    </div>
+                    <div class="p-[20px] bg-white border-2 rounded-xl overflow-hidden ">
+                        <img class="w-full" src="assets/article3.png" alt="">
+                        <div class=" flex gap-5">
+                            <p class="text-[15px] font-medium text-[#777777] mt-[15px] mb-3"><i class="fa-regular fa-calendar mr-2"></i> July14, 2024</p>
+                            <p class="text-[15px] font-medium text-[#777777] mt-[15px] mb-3"><i class="fa-regular fa-user mr-2 text-[10px] p-[4px] rounded-full border-[1px] border-[#777777]"></i> Admin</p>
+                        </div>
+                        <h3 class="text-[20px] font-extrabold  mb-3">How to choose the furniture <br> right  of your home.</h3>
+                        <p class="text-[16px] max-w-xl mx-auto font-medium text-[#777777] mb-3">The barn house captivates with its blend of <br> rustic charm and modern. </p>
+                        <p class="text-[18px] max-w-xl mx-auto font-bold text-[#000000]">Read More <i
+                            class="fa-solid fa-arrow-right -rotate-45 mr-2 p-[8px]  rounded-full  lg:w-8 lg:h-8 lg:rounded-full bg-[#ABEF5F] inline-flex justify-center items-center text-primary"></i></p>               
+                    </div>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Let’s Discuss Next Project section -->
 
     </main>
 
@@ -342,3 +405,11 @@
 </body>
 
 </html>
+
+<!-- 
+ <section class="bg-[#f4f4f4] mt-[80px] py-[80px]">
+            <div class=" max-w-screen-xl  lg:mx-auto lg:px-[10px] px-5">
+                
+            </div>
+        </section>
+-->
